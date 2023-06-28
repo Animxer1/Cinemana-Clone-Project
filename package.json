@@ -9,10 +9,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
-    "fix": "eslint --fix .",
-    "devStart":"npm run fix && nodemon .",
-    "start": "node ."
+    "lint": "eslint ./src",
+    "fix": "eslint --fix ./src",
+    "devStart":"npm run fix && nodemon ./src",
+    "start": "node ./src"
   },
   "repository": {
     "type": "git",
